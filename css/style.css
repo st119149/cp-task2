@@ -1,0 +1,65 @@
+.tabs {
+    position: relative;
+}
+
+.sliders {
+    margin-top: 30px;
+    max-width: 300px;
+}
+
+.sliders div {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.content {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#colorRed .ui-slider-range {
+    background: red;
+}
+#colorRed .ui-slider-handle {
+    border-color: red;
+}
+
+#colorGreen .ui-slider-range {
+    background: green;
+}
+#colorGreen .ui-slider-handle {
+    border-color: green;
+}
+
+#colorBlue .ui-slider-range {
+    background: blue;
+}
+#colorBlue .ui-slider-handle {
+    border-color: blue;
+}
+
+#backgroundColorRed .ui-slider-range {
+    background: red;
+}
+#backgroundColorRed .ui-slider-handle {
+    border-color: red;
+}
+
+#backgroundColorGreen .ui-slider-range {
+    background: green;
+}
+#backgroundColorGreen .ui-slider-handle {
+    border-color: green;
+}
+
+#backgroundColorBlue .ui-slider-range {
+    background: blue;
+}
+#backgroundColorBlue .ui-slider-handle {
+    border-color: blue;
+}
